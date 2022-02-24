@@ -1,16 +1,34 @@
 body{
     background-color: lightskyblue;
 }
+.margins-padding{
+    border:3px solid purple;
+      margin-top: 50px;
+      margin-right: 200px;
+      margin-bottom: 25px;
+      margin-left: 200px;
+      padding: 10px 10px 20px 20px;
+  }
 h1{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.background1{
-    background-image: url(../CSSCheckup/marble.jpg);
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-#sweet{
-    color:purple;
+/*Adding a background image for boxes*/
+.background{
+    background-image: url(../CSSCheckup/marble.png);
+    height: 320px;
+    width: 400px;
+}
+.image img{
+    width:200px;
+    height:200px;
+}
+/* Setting the id*/
+#id{
+    color:rgb(185, 53, 20);
     font-style: italic;
 }
 
